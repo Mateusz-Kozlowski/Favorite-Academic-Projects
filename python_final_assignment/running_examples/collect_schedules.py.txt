@@ -1,0 +1,5 @@
+python3 collect_schedules.py \
+  --stops-coords-csv-path analysis_data/stops_coords.csv \
+  --stops-lines-json-path analysis_data/stops_lines.json \
+  --schedules-json-path analysis_data/schedules.json \
+  --lines-routes-json-path analysis_data/lines_routes.json

@@ -1,0 +1,1 @@
+* 0% speeding buses but buses > 0 should give green dot, not nothing

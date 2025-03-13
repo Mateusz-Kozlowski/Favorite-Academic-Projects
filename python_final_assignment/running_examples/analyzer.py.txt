@@ -1,0 +1,14 @@
+python3 analyze.py \
+  --stops-coords-csv analysis_data/stops_coords.csv \
+  --stops-lines-json analysis_data/stops_lines.json \
+  --schedules-json analysis_data/schedules.json \
+  --lines-routes-json-path analysis_data/lines_paths.json \
+  --speed-threshold 50 \
+  --buses-loc-csv-path analysis_data/buses_loc/20_3600s.csv \
+  --speed-dist-png-path visuals/speed_dist/20_3600s.png \
+  --speeding-map-png-path visuals/speeding_maps/20_3600s.png \
+  --cols-cnt 16 \
+  --rows-cnt 16 \
+  --detailed-info 1 \
+  --centre-radius 2 \
+  --buses_dist-png-path visuals/buses_dist/20_3600s.png
